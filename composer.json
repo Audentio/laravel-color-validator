@@ -1,0 +1,34 @@
+{
+    "name": "audentio/laravel-color-validator",
+    "description": "Color validator for Laravel. Supports RGB, RGBA, and hex\"",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Audentio\\LaravelColorValidator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jake Booher",
+            "email": "jakeb@audentio.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1",
+        "illuminate/validation": "^9.0|^10.0",
+        "illuminate/support": "^9.0|^10.0",
+        "spatie/color": "^1.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0|^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Audentio\\LaravelColorValidator\\ServiceProvider"
+            ]
+        }
+    }
+}
